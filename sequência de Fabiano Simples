@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+	int numeroimprecao = 0, numeroanterior = 1, i;
+	for(i = 1; i < 12; i++){
+		printf("\n%d", numeroimprecao);
+		numeroimprecao += numeroanterior;
+		numeroanterior = numeroimprecao - numeroanterior;
+	}
+	return 0;
+}
