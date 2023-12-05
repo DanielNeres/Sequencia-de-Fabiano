@@ -3,6 +3,8 @@
 int main(){
 	int numeroimprecao, i; 
 
-	
-		return 0;
+	for (; i >= 0; i--) {
+        printf("O resultado é: %i\n", numeroimprecao);
+    }
+	return 0;
 }
