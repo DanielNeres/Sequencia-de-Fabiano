@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 int main(){
-	int numeroimprecao = 0, numeroanterior = 1, i; 
+	int numeroimprecao = 0, numeroanterior = 1; 
 	// inicia um for que define o tamanho da sequência atravez da variavel i
-	for(i = 0; i < 10; i++){
+	for(;numeroimprecao < 34;){
 	// importante imprimir o numero antes que o valor seja modificado	
 		printf("\n%d", numeroimprecao); 
 	// soma o numero de impreção a outra variavel, que no incio serve para inciar a sequencia, mas após o primeiro laço ele reistra o ultimp balor usado na impreção	
